@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--
+add href to galery titles and hover cursor pointer.
+-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+	<style>
+		.container {
+			width: 1500px;
+		}
+		ul{
+			font-family: 'Montserrat', sans-serif;
+			list-style-type: none;
+			overflow: hidden;
+			background-color: #195a60;
+			text-align: left;
+
+		}
+		li{
+			display: inline;
+		}
+		li a{
+			color: white;
+			text-align: center;
+			padding: 14px;
+			font-size: 25px;
+			text-decoration: none;
+
+		}
+		li a:hover{
+			background-color: purple;
+			cursor: pointer;
+		}
+		#logo{
+			float: left;
+			cursor: pointer;
+		}
+		#title a{
+			font-family: 'Coiny', cursive;
+			color: black;
+			text-decoration: none;
+		}
+		.search{
+			float: right;
+			margin-right: 3em;
+			background-color: #195a60;
+			color: white;
+			padding: 10px 5px 5px 10px
+		}
+		body{
+			font-family: 'Montserrat', sans-serif;
+		}
+		#intro_video{
+			margin: 3em 0 2em 26em;
+		}
+		.galery{
+			position: relative;
+			display: inline-block;
+			margin-top: 30px;
+			margin-left: 24em;
+		}
+		.galery h2{
+			margin-top: 6em;
+			margin-left: -12.5em;
+			display: inline-flex;
+			position: absolute;
+		}
+		.galery h2 span{
+			color: white;
+			background-color: rgba(0, 0, 0, 0.7)
+		}
+		.galery h2 span.spacer{
+			padding: 0 5px 0 5px;
+		}
+		.galery img{
+			vertical-align: middle;
+			border-radius: 15px;
+			margin: 0 10px 10px 0;
+
+		}
+		.galery_link{
+			text-decoration: none;
+		}
+		.galery img:hover{
+			opacity: .7;
+			background-color: green;
+			cursor: pointer;
+		}
+		.social_link{
+			text-decoration: none;
+		}
+		.social-media{
+			padding-top: 10px;
+			padding-left: 10px;
+		}
+		.social-media img:hover{
+			cursor: pointer;
+		}
+		#mission{
+			margin: 50px 0 30px 20px;
+
+		}
+		.break{
+			margin-left: 120px;
+		}
+		.bikiny-bottom{
+			background-color: #195a60;
+			padding-bottom: 100px;
+		}
+
+	</style>
+	<title>Olie's Pet Sitting</title>
+	<div id="logo">
+		<a href="home.html">
+		<img src="http://www.clipartkid.com/images/663/dog-training-clipart-cliparts-co-N8ImwF-clipart.jpg"
+	alt="Company logo" width=100px></a>
+	</div>
+	<div id="title">
+	<h1><a href="home.html">Olie's Pets</a></h1>
+	</div>
+	<ul>
+		<li><a href="about-us.html">About Us</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="contact-us.html">Contact Us</a></li>
+		<li><a href="blog.html">Blog</a></li>
+	</ul>
+</head>
+<body>
+	<div class="container">
+		<div class="search">
+		<form action="/search">
+			<input style="text" placeholder="Search" required>
+			<button type="submit">Submit</button>
+			<br>
+			<label><input type="radio" name="indoor-outdoor">Store</label>
+	<label><input type="radio" name="indoor-outdoor">Blog</label>
+		</form>
+	</div>
+	<div id="mission">
+		<h2>Mission Statement</h2>
+			<p>I have no idea.I have to draft it, revice it.<br><span class="break">- Joey Madrid <em>Founder<em></span></p>
+		</div>
+		<div class="galery">
+			<a href="my_fur-baby.html" class="galery_link">
+				<img src="http://cdn.pcwallart.com/images/dogs-and-puppies-playing-wallpaper-5.jpg" alt="puppy playing" width=300px>
+			</a>
+			<h2><span class="spacer">My Fur-baby</span></h2>
+			<a href="hall_of_fame.html" class="galery_link">
+				<img src="https://s3.amazonaws.com/imagesroot.rescuegroups.org/webpages/s4264nflq7anwrem.jpg" alt="Graduating puppy" width=300px>
+			</a>
+			<h2><span class="spacer">Hall of Fame</span></h2>
+				<br>
+			<a href="dirty_paws.html" class="galery_link">
+				<img src="https://blog.dogbuddy.com/wp-content/uploads/2015/03/Rhodesian-Ridgebacks-Hiking-e1426074152677.jpg" alt="Dogs on a hike" width=300px>
+			</a>
+			<h2><span class="spacer">Dirty Paws</span></h2>
+			<a href="teachers.html" class="galery_link">
+				<img src="http://www.successdog.net/image/11179257.jpg" alt="Teacher" width=300px>
+			</a>
+			<h2><span class="spacer">Teachers</span></h2>
+		</div>
+			<div id="intro_video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qDAB-4O89nY" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="bikiny-bottom">
+			<div class="social-media">
+				<a href="https://www.facebook.com/" class="social_link" target="blank">
+					<img src="images/facebook-logo.png" alt="facebook logo" width= 25px>
+				</a>
+				<a href="https://twitter.com/" class="social_link" target="blank">
+					<img src="images/twitter-logo.png" alt="twitter logo" width= 25px>
+				</a>
+				<a href="https://www.instagram.com/?hl=en" class="social_link" target="blank">
+					<img src="images/instagram-logo.png" alt="instagram logo" width= 25px>
+				</a>
+				<a href="https://www.youtube.com/" class="social_link" target="blank">
+					<img src="images/youtube-logo.jpeg" alt="youtube logo" width= 25px>
+				</a>
+				<a href="https://plus.google.com/" class="social_link" target="blank">
+					<img src="images/google+-logo.png" alt="google plus logo" width= 25px>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
